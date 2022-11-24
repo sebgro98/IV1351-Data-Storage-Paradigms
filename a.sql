@@ -134,7 +134,7 @@ CREATE TABLE siblings (
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  relation VARCHAR(10),
- student_id VARCHAR(12) UNIQUE,
+ school_id VARCHAR(12) UNIQUE,
  number_of_siblings INT,
  instrument_type VARCHAR(10)
 );

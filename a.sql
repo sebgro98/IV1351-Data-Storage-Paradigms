@@ -9,7 +9,7 @@ ALTER TABLE administrative_staff ADD CONSTRAINT PK_administrative_staff PRIMARY 
 
 CREATE TABLE email (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- email_UNIQUE VARCHAR(100) NOT NULL
+ email VARCHAR(100) UNIQUE NOT NULL
 );
 
 ALTER TABLE email ADD CONSTRAINT PK_email PRIMARY KEY (id);
@@ -22,7 +22,7 @@ CREATE TABLE person (
  street VARCHAR(100) NOT NULL,
  city VARCHAR(100) NOT NULL,
  last_name VARCHAR(100) NOT NULL,
- personal_number_UNIQUE VARCHAR(12) NOT NULL
+ personal_number VARCHAR(12) UNIQUE NOT NULL
 );
 
 ALTER TABLE person ADD CONSTRAINT PK_person PRIMARY KEY (id);
@@ -38,7 +38,7 @@ ALTER TABLE person_email ADD CONSTRAINT PK_person_email PRIMARY KEY (person_id,e
 
 CREATE TABLE phone_number (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- phone_number_UNIQUE VARCHAR(20) NOT NULL
+ phone_number VARCHAR(20) UNIQUE NOT NULL
 );
 
 ALTER TABLE phone_number ADD CONSTRAINT PK_phone_number PRIMARY KEY (id);
@@ -59,7 +59,7 @@ CREATE TABLE student (
  relative_name VARCHAR(100) NOT NULL,
  relative_phone_number VARCHAR(10) NOT NULL,
  number_of_rented_instruments INT,
- student_number_UNIQUE VARCHAR(12) NOT NULL,
+ student_number VARCHAR(12) UNIQUE NOT NULL,
  number_of_lessons_taken INT,
  person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  instrument_type VARCHAR(100)
@@ -79,7 +79,7 @@ ALTER TABLE discount ADD CONSTRAINT PK_discount PRIMARY KEY (student_id);
 CREATE TABLE instructor (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  instrument_type VARCHAR(100),
- employ_id_UNIQUE VARCHAR(12),
+ employ_id VARCHAR(12) UNIQUE,
  number_group_lessons INT,
  number_of_individual_lessons INT,
  person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL
@@ -134,7 +134,7 @@ CREATE TABLE siblings (
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  relation VARCHAR(10),
- student_id_UNIQUE VARCHAR(12),
+ student_id VARCHAR(12) UNIQUE,
  number_of_siblings INT,
  instrument_type VARCHAR(10)
 );

@@ -92,7 +92,6 @@ CREATE TABLE leasings_instruments (
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  leasing_period VARCHAR(100),
  number_of_instruments INT,
- price_for_instrument FLOAT(10),
  in_stock INT,
  delivery VARCHAR(100)
 );
@@ -103,9 +102,10 @@ ALTER TABLE leasings_instruments ADD CONSTRAINT PK_leasings_instruments PRIMARY 
 CREATE TABLE lessons (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  skill_level VARCHAR(100) NOT NULL,
- time_and_date TIMESTAMP(6),
+ start_date TIMESTAMP(6),
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- instructor_id INT GENERATED ALWAYS AS IDENTITY NOT NULL
+ instructor_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+ end_date TIMESTAMP(6)
 );
 
 ALTER TABLE lessons ADD CONSTRAINT PK_lessons PRIMARY KEY (id);
@@ -121,10 +121,11 @@ ALTER TABLE person_phone ADD CONSTRAINT PK_person_phone PRIMARY KEY (person_id,i
 
 CREATE TABLE prices (
  lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- beginner_and_intermediate FLOAT(10) NOT NULL,
- advanced FLOAT(10) NOT NULL,
- group_lesson FLOAT(10) NOT NULL,
- individual_lesson FLOAT(10) NOT NULL
+ price_beginner_and_intermediate FLOAT(10) NOT NULL,
+ price_advanced FLOAT(10) NOT NULL,
+ price_group_lesson FLOAT(10) NOT NULL,
+ price_individual_lesson FLOAT(10) NOT NULL,
+ price_for_instrument FLOAT(10)
 );
 
 ALTER TABLE prices ADD CONSTRAINT PK_prices PRIMARY KEY (lesson_id);
@@ -132,14 +133,12 @@ ALTER TABLE prices ADD CONSTRAINT PK_prices PRIMARY KEY (lesson_id);
 
 CREATE TABLE siblings (
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+ student_also_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  relation VARCHAR(10),
- school_id VARCHAR(12) UNIQUE,
- number_of_siblings INT,
- instrument_type VARCHAR(10)
+ school_id VARCHAR(12) UNIQUE
 );
 
-ALTER TABLE siblings ADD CONSTRAINT PK_siblings PRIMARY KEY (student_id,person_id);
+ALTER TABLE siblings ADD CONSTRAINT PK_siblings PRIMARY KEY (student_id,student_also_id);
 
 
 CREATE TABLE ensambles (
@@ -163,20 +162,20 @@ ALTER TABLE group_lessons ADD CONSTRAINT PK_group_lessons PRIMARY KEY (lesson_id
 
 
 CREATE TABLE individual_lessons (
- lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  administrative_staff_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+ lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  intrument_type VARCHAR(100)
 );
 
-ALTER TABLE individual_lessons ADD CONSTRAINT PK_individual_lessons PRIMARY KEY (lesson_id,administrative_staff_id);
+ALTER TABLE individual_lessons ADD CONSTRAINT PK_individual_lessons PRIMARY KEY (administrative_staff_id,lesson_id);
 
 
 CREATE TABLE lesson_time (
  scheduled_timeslot_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL
+ lesson_id_0 INT GENERATED ALWAYS AS IDENTITY NOT NULL
 );
 
-ALTER TABLE lesson_time ADD CONSTRAINT PK_lesson_time PRIMARY KEY (scheduled_timeslot_id,lesson_id);
+ALTER TABLE lesson_time ADD CONSTRAINT PK_lesson_time PRIMARY KEY (scheduled_timeslot_id,lesson_id_0);
 
 
 ALTER TABLE person_email ADD CONSTRAINT FK_person_email_0 FOREIGN KEY (person_id) REFERENCES person (id);
@@ -207,7 +206,7 @@ ALTER TABLE prices ADD CONSTRAINT FK_prices_0 FOREIGN KEY (lesson_id) REFERENCES
 
 
 ALTER TABLE siblings ADD CONSTRAINT FK_siblings_0 FOREIGN KEY (student_id) REFERENCES student (id);
-ALTER TABLE siblings ADD CONSTRAINT FK_siblings_1 FOREIGN KEY (person_id) REFERENCES person (id);
+ALTER TABLE siblings ADD CONSTRAINT FK_siblings_1 FOREIGN KEY (student_also_id) REFERENCES student (id);
 
 
 ALTER TABLE ensambles ADD CONSTRAINT FK_ensambles_0 FOREIGN KEY (lesson_id) REFERENCES lessons (id);
@@ -216,12 +215,10 @@ ALTER TABLE ensambles ADD CONSTRAINT FK_ensambles_0 FOREIGN KEY (lesson_id) REFE
 ALTER TABLE group_lessons ADD CONSTRAINT FK_group_lessons_0 FOREIGN KEY (lesson_id) REFERENCES lessons (id);
 
 
-ALTER TABLE individual_lessons ADD CONSTRAINT FK_individual_lessons_0 FOREIGN KEY (lesson_id) REFERENCES lessons (id);
-ALTER TABLE individual_lessons ADD CONSTRAINT FK_individual_lessons_1 FOREIGN KEY (administrative_staff_id) REFERENCES administrative_staff (id);
+ALTER TABLE individual_lessons ADD CONSTRAINT FK_individual_lessons_0 FOREIGN KEY (administrative_staff_id) REFERENCES administrative_staff (id);
+ALTER TABLE individual_lessons ADD CONSTRAINT FK_individual_lessons_1 FOREIGN KEY (lesson_id) REFERENCES lessons (id);
 
 
 ALTER TABLE lesson_time ADD CONSTRAINT FK_lesson_time_0 FOREIGN KEY (scheduled_timeslot_id) REFERENCES scheduled_timeslots (id);
-ALTER TABLE lesson_time ADD CONSTRAINT FK_lesson_time_1 FOREIGN KEY (lesson_id) REFERENCES group_lessons (lesson_id);
-ALTER TABLE lesson_time ADD CONSTRAINT FK_lesson_time_2 FOREIGN KEY (lesson_id) REFERENCES ensambles (lesson_id);
-
-
+ALTER TABLE lesson_time ADD CONSTRAINT FK_lesson_time_1 FOREIGN KEY (lesson_id_0) REFERENCES ensambles (lesson_id);
+ALTER TABLE lesson_time ADD CONSTRAINT FK_lesson_time_2 FOREIGN KEY (lesson_id_0) REFERENCES group_lessons (lesson_id);

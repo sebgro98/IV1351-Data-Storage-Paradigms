@@ -61,7 +61,7 @@ CREATE TABLE student (
  number_of_rented_instruments INT,
  student_number VARCHAR(12) UNIQUE NOT NULL,
  number_of_lessons_taken INT,
- person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+ person_id INT GENERATED ALWAYS AS IDENTITY UNIQUE NOT NULL,
  instrument_type VARCHAR(100)
 );
 
@@ -82,7 +82,7 @@ CREATE TABLE instructor (
  employ_id VARCHAR(12) UNIQUE,
  number_group_lessons INT,
  number_of_individual_lessons INT,
- person_id INT GENERATED ALWAYS AS IDENTITY NOT NULL
+ person_id INT GENERATED ALWAYS AS IDENTITY UNIQUE NOT NULL
 );
 
 ALTER TABLE instructor ADD CONSTRAINT PK_instructor PRIMARY KEY (id);

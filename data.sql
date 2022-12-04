@@ -1450,370 +1450,366 @@ VALUES
   (9,12,29,2),
   (5,10,22,2);
 
-   INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+   INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('disco',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('disco',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('jazz',20,5,'2022-03-22 22:47:47'),
+  ('jazz',20,5,'2023-08-09 11:22:23'),
+  ('jazz',20,5,'2022-01-07 07:53:03'),
+  ('jazz',20,5,'2023-02-21 21:40:25'),
+  ('rock',20,5,'2022-07-03 16:09:21'),
+  ('rock',20,5,'2022-10-10 09:13:40'),
+  ('rock',20,5,'2022-12-18 22:47:14'),
+  ('rock',20,5,'2023-07-16 01:45:06'),
+  ('jazz',20,5,'2022-09-18 23:26:39'),
+  ('disco',20,5,'2022-07-16 00:23:51');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('disco',20,5,'2023-11-10 11:45:38'),
+  ('rock',20,5,'2022-03-14 05:04:04'),
+  ('jazz',20,5,'2022-12-24 16:05:23'),
+  ('disco',20,5,'2023-04-05 06:43:41'),
+  ('disco',20,5,'2022-08-25 07:43:48'),
+  ('rock',20,5,'2022-07-07 19:24:28'),
+  ('rock',20,5,'2023-02-19 09:46:51'),
+  ('jazz',20,5,'2023-02-28 04:04:19'),
+  ('rock',20,5,'2022-10-27 18:04:56'),
+  ('jazz',20,5,'2022-03-18 08:31:45');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('rock',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('rock',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('jazz',20,5,'2022-10-28 10:32:22'),
+  ('rock',20,5,'2023-05-01 08:50:56'),
+  ('rock',20,5,'2022-06-21 04:16:39'),
+  ('jazz',20,5,'2022-02-11 03:28:12'),
+  ('rock',20,5,'2023-06-05 18:02:05'),
+  ('disco',20,5,'2023-02-16 19:59:34'),
+  ('rock',20,5,'2022-01-03 23:50:14'),
+  ('rock',20,5,'2023-04-01 06:56:37'),
+  ('rock',20,5,'2023-07-12 02:05:26'),
+  ('jazz',20,5,'2022-07-07 08:56:57');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('jazz',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('rock',20,5,'2023-01-02 13:32:41'),
+  ('rock',20,5,'2022-08-05 16:07:41'),
+  ('rock',20,5,'2022-02-14 05:49:26'),
+  ('disco',20,5,'2022-08-12 12:49:55'),
+  ('disco',20,5,'2023-10-09 18:40:51'),
+  ('jazz',20,5,'2021-12-17 11:42:21'),
+  ('rock',20,5,'2023-03-24 15:57:22'),
+  ('disco',20,5,'2022-10-31 22:01:21'),
+  ('jazz',20,5,'2023-07-01 01:50:03'),
+  ('disco',20,5,'2023-05-02 19:06:28');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('disco',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('disco',20,5,'2022-01-17 05:47:37'),
+  ('rock',20,5,'2023-01-29 14:56:05'),
+  ('rock',20,5,'2022-11-03 00:55:37'),
+  ('rock',20,5,'2022-05-02 19:48:10'),
+  ('jazz',20,5,'2021-12-07 14:56:36'),
+  ('jazz',20,5,'2023-04-02 17:01:01'),
+  ('rock',20,5,'2022-10-06 02:37:18'),
+  ('disco',20,5,'2022-05-06 09:58:50'),
+  ('rock',20,5,'2023-08-03 01:48:44'),
+  ('jazz',20,5,'2021-12-09 00:09:31');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('rock',20,5,'2023-11-20 23:05:12'),
+  ('rock',20,5,'2023-10-09 00:14:16'),
+  ('jazz',20,5,'2022-04-24 00:44:51'),
+  ('rock',20,5,'2022-05-19 04:13:12'),
+  ('rock',20,5,'2022-08-29 22:23:29'),
+  ('rock',20,5,'2022-01-22 09:28:09'),
+  ('rock',20,5,'2023-08-27 05:04:07'),
+  ('jazz',20,5,'2022-06-07 04:05:48'),
+  ('jazz',20,5,'2022-07-11 16:45:27'),
+  ('disco',20,5,'2022-02-13 08:56:43');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('rock',20,5),
-  ('rock',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('jazz',20,5,'2023-10-22 01:48:10'),
+  ('jazz',20,5,'2023-09-15 15:55:36'),
+  ('disco',20,5,'2022-04-19 00:26:05'),
+  ('jazz',20,5,'2022-07-23 12:33:48'),
+  ('disco',20,5,'2023-11-11 13:54:14'),
+  ('jazz',20,5,'2023-10-25 05:06:52'),
+  ('rock',20,5,'2022-02-28 17:44:20'),
+  ('jazz',20,5,'2021-12-17 22:06:42'),
+  ('disco',20,5,'2022-01-12 07:47:09'),
+  ('disco',20,5,'2022-04-25 16:45:21');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('disco',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('rock',20,5,'2021-12-30 13:32:25'),
+  ('jazz',20,5,'2023-10-19 18:02:43'),
+  ('disco',20,5,'2021-12-08 15:12:11'),
+  ('jazz',20,5,'2022-12-14 20:21:13'),
+  ('disco',20,5,'2022-12-31 22:16:26'),
+  ('rock',20,5,'2023-06-23 18:11:28'),
+  ('jazz',20,5,'2023-10-29 21:54:46'),
+  ('rock',20,5,'2022-02-21 15:11:48'),
+  ('disco',20,5,'2023-08-01 11:49:52'),
+  ('disco',20,5,'2023-03-13 23:19:27');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('rock',20,5);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students)
+  ('rock',20,5,'2023-04-07 12:24:57'),
+  ('disco',20,5,'2023-11-25 00:22:29'),
+  ('disco',20,5,'2023-08-19 02:58:10'),
+  ('rock',20,5,'2023-01-12 23:54:08'),
+  ('disco',20,5,'2022-12-27 01:15:45'),
+  ('disco',20,5,'2022-08-17 14:00:13'),
+  ('disco',20,5,'2023-04-25 09:23:39'),
+  ('disco',20,5,'2022-06-05 01:19:52'),
+  ('jazz',20,5,'2022-02-22 22:51:43'),
+  ('jazz',20,5,'2022-07-15 19:54:53');
+INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date)
 VALUES
-  ('jazz',20,5),
-  ('rock',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('jazz',20,5),
-  ('jazz',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('disco',20,5),
-  ('jazz',20,5);
-   
-   INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('drums',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('drums',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('guitar',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('drums',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('guitar',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('drums',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('piano',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('drums',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('drums',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('drums',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('guitar',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('piano',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('drums',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('piano',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('piano',5,20);
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students)
-VALUES
-  ('guitar',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('piano',5,20),
-  ('drums',5,20),
-  ('guitar',5,20),
-  ('guitar',5,20);
-
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('drums'),
-  ('drums'),
-  ('guitar'),
-  ('drums'),
-  ('drums'),
-  ('drums'),
-  ('guitar'),
-  ('drums'),
-  ('drums'),
-  ('piano');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('drums'),
-  ('piano'),
-  ('piano'),
-  ('guitar'),
-  ('drums'),
-  ('piano'),
-  ('guitar'),
-  ('guitar'),
-  ('piano'),
-  ('guitar');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('drums'),
-  ('guitar'),
-  ('drums'),
-  ('drums'),
-  ('drums'),
-  ('drums'),
-  ('guitar'),
-  ('drums'),
-  ('guitar'),
-  ('drums');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('guitar'),
-  ('piano'),
-  ('guitar'),
-  ('guitar'),
-  ('piano'),
-  ('piano'),
-  ('drums'),
-  ('guitar'),
-  ('piano'),
-  ('piano');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('drums'),
-  ('guitar'),
-  ('piano'),
-  ('guitar'),
-  ('guitar'),
-  ('guitar'),
-  ('guitar'),
-  ('guitar'),
-  ('piano'),
-  ('piano');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('guitar'),
-  ('guitar'),
-  ('piano'),
-  ('drums'),
-  ('piano'),
-  ('drums'),
-  ('drums'),
-  ('guitar'),
-  ('drums'),
-  ('piano');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('drums'),
-  ('drums'),
-  ('piano'),
-  ('drums'),
-  ('drums'),
-  ('guitar'),
-  ('guitar'),
-  ('drums'),
-  ('drums'),
-  ('guitar');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('guitar'),
-  ('drums'),
-  ('piano'),
-  ('guitar'),
-  ('drums'),
-  ('drums'),
-  ('piano'),
-  ('piano'),
-  ('piano'),
-  ('piano');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('piano'),
-  ('piano'),
-  ('drums'),
-  ('guitar'),
-  ('piano'),
-  ('drums'),
-  ('drums'),
-  ('piano'),
-  ('piano'),
-  ('drums');
-INSERT INTO individual_lessons (intrument_type)
-VALUES
-  ('piano'),
-  ('drums'),
-  ('piano'),
-  ('drums'),
-  ('piano'),
-  ('drums'),
-  ('drums'),
-  ('piano'),
-  ('guitar'),
-  ('guitar');
-
-
-
+  ('rock',20,5,'2022-04-13 22:58:18'),
+  ('disco',20,5,'2022-10-28 10:01:01'),
+  ('rock',20,5,'2023-05-15 11:10:52'),
+  ('disco',20,5,'2022-11-24 19:55:25'),
+  ('disco',20,5,'2022-03-29 14:44:35'),
+  ('disco',20,5,'2022-12-22 10:17:46'),
+  ('disco',20,5,'2022-02-24 03:44:04'),
+  ('jazz',20,5,'2023-07-22 21:34:46'),
+  ('jazz',20,5,'2023-01-15 17:13:45'),
+  ('rock',20,5,'2022-05-10 05:47:09');
 
    
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2022-07-16 10:07:51'),
+  ('piano',5,20,'2023-10-04 04:10:24'),
+  ('guitar',5,20,'2022-03-11 03:41:57'),
+  ('guitar',5,20,'2022-10-27 03:17:45'),
+  ('guitar',5,20,'2023-08-08 08:23:26'),
+  ('piano',5,20,'2022-09-04 05:45:01'),
+  ('piano',5,20,'2022-01-28 09:34:15'),
+  ('piano',5,20,'2023-09-09 23:09:04'),
+  ('drums',5,20,'2022-10-22 16:35:07'),
+  ('piano',5,20,'2023-07-01 19:23:05');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('piano',5,20,'2023-01-11 16:16:06'),
+  ('drums',5,20,'2023-07-22 00:31:39'),
+  ('guitar',5,20,'2022-02-08 04:42:39'),
+  ('piano',5,20,'2022-01-23 01:31:36'),
+  ('guitar',5,20,'2021-12-31 01:44:14'),
+  ('guitar',5,20,'2023-10-24 05:13:55'),
+  ('drums',5,20,'2022-06-06 04:24:09'),
+  ('piano',5,20,'2023-10-15 02:29:50'),
+  ('piano',5,20,'2022-12-21 10:47:32'),
+  ('guitar',5,20,'2023-08-03 12:09:48');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('drums',5,20,'2023-06-30 12:07:04'),
+  ('guitar',5,20,'2022-07-23 12:43:32'),
+  ('piano',5,20,'2023-11-23 02:24:47'),
+  ('drums',5,20,'2022-11-19 00:20:31'),
+  ('guitar',5,20,'2021-12-22 19:28:21'),
+  ('drums',5,20,'2023-08-12 07:47:37'),
+  ('drums',5,20,'2022-09-05 19:45:03'),
+  ('piano',5,20,'2022-02-15 13:27:40'),
+  ('drums',5,20,'2022-01-03 23:01:08'),
+  ('drums',5,20,'2023-02-16 04:59:28');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2023-01-15 03:20:31'),
+  ('piano',5,20,'2023-05-09 03:25:51'),
+  ('piano',5,20,'2022-04-26 23:44:43'),
+  ('piano',5,20,'2022-06-22 22:39:32'),
+  ('guitar',5,20,'2023-01-08 05:15:53'),
+  ('guitar',5,20,'2021-12-11 06:25:16'),
+  ('drums',5,20,'2021-12-06 08:29:57'),
+  ('drums',5,20,'2023-12-01 21:46:38'),
+  ('piano',5,20,'2022-09-08 06:24:42'),
+  ('drums',5,20,'2022-07-06 01:20:25');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('piano',5,20,'2023-04-30 16:38:28'),
+  ('piano',5,20,'2023-01-18 09:01:57'),
+  ('guitar',5,20,'2023-05-23 10:58:17'),
+  ('guitar',5,20,'2022-01-19 04:50:08'),
+  ('guitar',5,20,'2022-04-11 09:25:05'),
+  ('drums',5,20,'2023-06-02 01:26:18'),
+  ('piano',5,20,'2022-04-01 04:40:20'),
+  ('piano',5,20,'2023-09-03 11:43:59'),
+  ('piano',5,20,'2022-08-30 12:54:27'),
+  ('piano',5,20,'2022-06-10 17:28:52');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2022-11-01 07:11:25'),
+  ('guitar',5,20,'2023-04-10 21:54:52'),
+  ('drums',5,20,'2022-08-12 06:17:30'),
+  ('guitar',5,20,'2022-06-26 12:37:47'),
+  ('guitar',5,20,'2023-05-04 16:09:25'),
+  ('drums',5,20,'2023-03-06 05:06:47'),
+  ('piano',5,20,'2023-09-20 23:18:39'),
+  ('piano',5,20,'2022-06-20 10:34:34'),
+  ('guitar',5,20,'2023-01-03 21:19:05'),
+  ('guitar',5,20,'2023-10-03 11:58:58');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('drums',5,20,'2022-09-30 20:29:19'),
+  ('piano',5,20,'2023-07-21 13:22:50'),
+  ('guitar',5,20,'2023-06-29 16:48:54'),
+  ('piano',5,20,'2023-10-09 17:21:56'),
+  ('piano',5,20,'2022-01-07 17:21:06'),
+  ('guitar',5,20,'2023-06-06 06:11:15'),
+  ('drums',5,20,'2023-05-04 17:44:30'),
+  ('guitar',5,20,'2023-01-20 08:51:33'),
+  ('drums',5,20,'2023-03-31 14:04:00'),
+  ('guitar',5,20,'2023-07-31 20:44:34');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2022-10-18 19:13:50'),
+  ('drums',5,20,'2023-08-02 23:04:56'),
+  ('piano',5,20,'2022-02-15 13:00:35'),
+  ('guitar',5,20,'2022-09-23 09:51:24'),
+  ('piano',5,20,'2023-04-16 00:45:41'),
+  ('guitar',5,20,'2023-02-14 06:35:37'),
+  ('piano',5,20,'2023-02-11 00:54:39'),
+  ('piano',5,20,'2023-04-28 06:41:11'),
+  ('piano',5,20,'2023-05-10 06:05:51'),
+  ('drums',5,20,'2023-06-22 16:27:51');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2022-03-15 09:31:56'),
+  ('piano',5,20,'2021-12-31 13:02:55'),
+  ('piano',5,20,'2023-07-08 05:12:42'),
+  ('guitar',5,20,'2023-03-04 23:48:24'),
+  ('piano',5,20,'2023-11-10 19:37:40'),
+  ('piano',5,20,'2022-03-23 09:20:09'),
+  ('guitar',5,20,'2023-03-01 05:41:17'),
+  ('guitar',5,20,'2023-04-22 21:36:31'),
+  ('piano',5,20,'2023-06-13 21:49:57'),
+  ('piano',5,20,'2022-10-30 14:37:48');
+INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
+VALUES
+  ('guitar',5,20,'2022-09-05 08:48:11'),
+  ('piano',5,20,'2023-05-08 19:46:12'),
+  ('guitar',5,20,'2023-05-31 15:41:29'),
+  ('drums',5,20,'2022-08-10 14:08:05'),
+  ('drums',5,20,'2023-09-05 11:24:28'),
+  ('piano',5,20,'2023-10-02 20:39:27'),
+  ('guitar',5,20,'2022-09-14 22:27:31'),
+  ('piano',5,20,'2022-09-03 15:16:35'),
+  ('drums',5,20,'2021-12-20 00:08:06'),
+  ('guitar',5,20,'2023-03-28 05:04:55');
+
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('piano','2023-01-05 12:46:48'),
+  ('drums','2021-12-16 08:51:30'),
+  ('piano','2022-11-12 02:07:31'),
+  ('guitar','2023-09-17 12:05:17'),
+  ('piano','2022-02-24 23:17:13'),
+  ('drums','2023-06-05 18:36:38'),
+  ('drums','2022-04-02 20:24:34'),
+  ('guitar','2023-01-22 15:00:51'),
+  ('guitar','2023-11-29 20:12:15'),
+  ('piano','2023-05-10 13:50:24');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('piano','2022-12-25 18:10:36'),
+  ('piano','2023-06-13 08:27:27'),
+  ('guitar','2023-07-30 21:59:08'),
+  ('piano','2022-03-29 21:37:01'),
+  ('piano','2022-03-15 15:15:44'),
+  ('piano','2023-10-01 21:07:52'),
+  ('drums','2023-09-15 04:42:11'),
+  ('drums','2022-06-30 15:22:46'),
+  ('guitar','2022-09-21 06:43:23'),
+  ('guitar','2022-10-29 05:58:41');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('drums','2022-07-22 21:42:02'),
+  ('drums','2023-04-17 17:54:41'),
+  ('drums','2023-11-07 22:04:25'),
+  ('drums','2022-05-03 11:47:38'),
+  ('piano','2022-10-18 06:13:58'),
+  ('guitar','2022-02-19 14:03:20'),
+  ('piano','2023-02-27 07:40:13'),
+  ('piano','2023-03-04 20:07:57'),
+  ('guitar','2023-06-16 09:37:38'),
+  ('drums','2023-01-27 23:50:56');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('guitar','2023-07-01 11:24:48'),
+  ('piano','2023-05-19 01:19:38'),
+  ('piano','2023-02-16 11:45:47'),
+  ('guitar','2023-05-17 02:47:00'),
+  ('guitar','2021-12-06 08:41:48'),
+  ('piano','2022-10-18 16:28:39'),
+  ('guitar','2022-08-26 12:27:42'),
+  ('piano','2023-04-06 12:57:09'),
+  ('piano','2022-06-02 02:41:32'),
+  ('guitar','2022-11-11 12:18:34');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('guitar','2023-07-31 06:04:20'),
+  ('piano','2022-12-09 02:13:52'),
+  ('drums','2022-09-27 04:20:01'),
+  ('drums','2022-10-24 04:03:04'),
+  ('drums','2022-06-07 05:30:52'),
+  ('piano','2022-06-27 10:43:18'),
+  ('guitar','2022-01-06 22:45:12'),
+  ('drums','2023-07-27 21:47:34'),
+  ('piano','2023-04-03 18:38:20'),
+  ('drums','2023-01-11 15:22:41');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('drums','2023-11-25 19:40:37'),
+  ('drums','2023-06-30 10:38:44'),
+  ('guitar','2021-12-22 22:37:02'),
+  ('guitar','2022-08-19 17:41:00'),
+  ('drums','2023-02-23 05:59:26'),
+  ('guitar','2022-04-07 18:33:23'),
+  ('guitar','2023-10-29 13:39:13'),
+  ('drums','2021-12-10 19:20:06'),
+  ('guitar','2023-10-15 07:20:47'),
+  ('piano','2022-10-18 22:10:05');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('guitar','2022-05-10 23:24:19'),
+  ('piano','2022-04-02 03:29:28'),
+  ('drums','2023-02-19 11:40:53'),
+  ('guitar','2022-10-11 01:25:06'),
+  ('guitar','2022-04-25 22:41:40'),
+  ('piano','2022-12-14 11:11:52'),
+  ('drums','2022-03-02 05:41:18'),
+  ('drums','2023-01-28 06:15:18'),
+  ('drums','2023-05-25 14:21:49'),
+  ('guitar','2023-05-25 19:22:22');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('drums','2022-01-02 12:52:35'),
+  ('piano','2023-05-02 11:32:20'),
+  ('guitar','2022-06-18 14:36:13'),
+  ('piano','2022-07-28 07:52:50'),
+  ('piano','2023-11-04 17:37:57'),
+  ('drums','2023-04-15 07:13:57'),
+  ('guitar','2022-09-05 07:16:30'),
+  ('guitar','2023-06-05 04:17:28'),
+  ('piano','2022-09-19 02:44:13'),
+  ('guitar','2022-05-04 00:56:22');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('drums','2023-07-18 19:26:37'),
+  ('guitar','2022-08-11 06:05:38'),
+  ('piano','2022-03-23 03:23:49'),
+  ('piano','2022-09-10 02:10:34'),
+  ('guitar','2022-12-12 19:41:28'),
+  ('guitar','2022-02-03 12:39:27'),
+  ('guitar','2023-03-27 14:47:49'),
+  ('guitar','2023-09-21 00:37:32'),
+  ('guitar','2022-12-28 07:54:50'),
+  ('drums','2023-03-01 06:59:11');
+INSERT INTO individual_lessons (intrument_type,start_date)
+VALUES
+  ('guitar','2022-03-22 18:55:06'),
+  ('guitar','2022-08-01 15:38:47'),
+  ('piano','2022-07-20 11:21:18'),
+  ('guitar','2023-04-14 08:41:32'),
+  ('piano','2023-08-22 08:08:33'),
+  ('piano','2022-09-13 04:35:50'),
+  ('guitar','2022-07-13 09:46:52'),
+  ('piano','2022-02-17 00:28:13'),
+  ('guitar','2023-09-18 23:38:52'),
+  ('piano','2023-01-14 21:28:04');

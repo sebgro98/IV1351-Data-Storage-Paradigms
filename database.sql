@@ -146,7 +146,8 @@ CREATE TABLE ensambles (
  lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  genre VARCHAR(100) NOT NULL,
  maximun_number_of_students INT NOT NULL,
- minimun_number_of_students INT NOT NULL
+ minimun_number_of_students INT NOT NULL,
+ start_date TIMESTAMP(6)
 );
 
 ALTER TABLE ensambles ADD CONSTRAINT PK_ensambles PRIMARY KEY (lesson_id);
@@ -156,7 +157,8 @@ CREATE TABLE group_lessons (
  lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  instrument_type VARCHAR(100) NOT NULL,
  minimun_number_of_students INT NOT NULL,
- maximun_number_of_students INT NOT NULL
+ maximun_number_of_students INT NOT NULL,
+ start_date TIMESTAMP(6)
 );
 
 ALTER TABLE group_lessons ADD CONSTRAINT PK_group_lessons PRIMARY KEY (lesson_id);
@@ -165,7 +167,8 @@ ALTER TABLE group_lessons ADD CONSTRAINT PK_group_lessons PRIMARY KEY (lesson_id
 CREATE TABLE individual_lessons (
  administrative_staff_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  lesson_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- intrument_type VARCHAR(100)
+ intrument_type VARCHAR(100),
+ start_date TIMESTAMP(6)
 );
 
 ALTER TABLE individual_lessons ADD CONSTRAINT PK_individual_lessons PRIMARY KEY (administrative_staff_id,lesson_id);

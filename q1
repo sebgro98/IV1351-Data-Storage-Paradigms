@@ -1,0 +1,9 @@
+SELECT 
+EXTRACT(YEAR FROM start_date) AS year,
+EXTRACT(MONTH FROM start_date) AS month, COUNT(lesson_type) AS tot_num_Of_Lessons,
+count(case when lesson_type = 'ensambles' then 1 else null end) as ensambles,
+count(case when lesson_type = 'individual_lesson' then 1 else null end) as individual_lesson,
+count(case when lesson_type = 'group_lesson' then 1 else null end) as group_lesson
+FROM lessons
+ Where EXTRACT(YEAR FROM start_date)=2022
+Group by EXTRACT(YEAR FROM start_date),  EXTRACT(MONTH FROM start_date)

@@ -1,5 +1,127 @@
 INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
 VALUES
+  ('Bo','Keane','848673','528-2723 Sit Rd.','Alaminos','487-138-744'),
+  ('Kiara','Tucker','M0E 4E5','P.O. Box 327, 4784 In Rd.','Sangerhausen','347-305-674'),
+  ('Lucas','Henry','L9E 7M8','Ap #272-5427 Sit Av.','Cambridge Bay','429-377-768'),
+  ('Reed','Mufutau','737887','Ap #503-895 Volutpat Avenue','Kuşadası','931-834-941'),
+  ('Gretchen','Dillon','38181','P.O. Box 270, 7421 Vehicula Avenue','Diegem','992-628-925'),
+  ('Knox','Nathaniel','375133','P.O. Box 690, 2142 Pharetra St.','Marilles','865-348-233'),
+  ('Louis','Sawyer','J1M 7B1','Ap #263-832 Nec Street','Bogotá','265-677-413'),
+  ('Genevieve','Seth','0767-3777','7724 Mi Street','Fort Wayne','242-446-207'),
+  ('Kimberly','Kermit','722187','1039 Quis Ave','Holmestrand','434-627-476'),
+  ('Rogan','Axel','5626','Ap #533-1946 Per Rd.','Naarden','404-053-146');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Ina','Connor','37398','546-6826 Vitae, Av.','Çaldıran','887-157-064'),
+  ('Nash','Burton','69603','Ap #921-3726 Pede. St.','Stratford','732-425-045'),
+  ('Wallace','Ishmael','67715','215-6543 Ornare Road','Dover','643-727-638'),
+  ('Plato','Garrett','347507','Ap #434-5665 Cras St.','Kherson','314-586-965'),
+  ('Mercedes','Colby','566445','1945 Mauris Street','Soria','458-664-246'),
+  ('Lareina','Palmer','858085','2245 Sapien Rd.','SŽlange','402-604-373'),
+  ('Keith','Bernard','86-160','271-6405 Ipsum Av.','Breda','502-736-838'),
+  ('Burton','Hyatt','8316-1036','P.O. Box 537, 6791 Pharetra. Rd.','Dalkeith','825-199-542'),
+  ('Hammett','Branden','85167','Ap #524-2031 Facilisis, St.','Schönebeck','522-834-688'),
+  ('Edward','Daniel','12155-283','P.O. Box 791, 953 Integer Avenue','Finspång','221-496-745');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Finn','Walker','25735','Ap #285-6901 Porttitor Road','Kitzbühel','663-232-440'),
+  ('Shay','Dolan','65807-018','485-2431 Quam. Rd.','Nîmes','669-961-974'),
+  ('Kyla','Scott','M3N 1C8','405-4704 Tellus. Road','Imst','634-031-911'),
+  ('Kimberley','Evan','532681','P.O. Box 173, 9380 Risus. Street','Grande Cache','587-767-563'),
+  ('Wallace','Howard','43-32','P.O. Box 631, 4356 Elit, St.','Feilding','983-333-629'),
+  ('Ira','Theodore','3337','4038 Tempor Avenue','Harlingen','014-562-871'),
+  ('Shad','Nasim','409820','5385 Nisi St.','Tianjin','853-755-774'),
+  ('Aspen','Rooney','267141','Ap #221-3701 Vel Avenue','Puntarenas','330-477-372'),
+  ('Aurelia','Erich','30907','861-1995 Metus Av.','Melilla','136-263-113'),
+  ('Barclay','Beck','67756-322','323-3020 Luctus Avenue','Balsas','679-772-364');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Ferdinand','Wing','98-36','6924 Pede. Street','Skien','640-318-359'),
+  ('Felix','Fritz','17657','Ap #953-7284 Ut Ave','Rotterdam','327-384-505'),
+  ('Phelan','Lawrence','76102','Ap #218-4317 Massa. Av.','Boignee','866-794-919'),
+  ('Jenette','Cairo','78530','262-9051 Dui, Road','Curacautín','468-153-272'),
+  ('Maisie','Jelani','89482-284','Ap #878-7254 A St.','San Mauro Marchesato','377-665-335'),
+  ('Xenos','Aquila','2942','Ap #392-9078 At, Rd.','Charleville-Mézières','279-618-161'),
+  ('Zeph','Rashad','04970','P.O. Box 900, 504 Id, Street','Crewe','554-798-622'),
+  ('Jolene','Kenyon','2680-1046','Ap #354-2533 Quam. St.','Almere','886-762-393'),
+  ('Conan','Berk','975730','P.O. Box 228, 119 Auctor Av.','Modakeke','576-699-188'),
+  ('Vielka','Zachery','7570','3691 Et, Avenue','Ludvika','659-406-001');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Nasim','Baxter','14589','Ap #430-4929 Parturient Rd.','Bạc Liêu','862-157-651'),
+  ('Hedy','Randall','972587','Ap #710-4030 Morbi Street','Jamshoro','766-422-034'),
+  ('Xandra','Ciaran','4250','Ap #387-148 Non, St.','Balclutha','272-438-680'),
+  ('Callie','Igor','83265','137-359 Egestas Ave','Badin','487-356-176'),
+  ('Vladimir','Dylan','54681-313','740-2981 Ac St.','Tando Allahyar','368-684-192'),
+  ('Rinah','Branden','53-57','P.O. Box 935, 6918 Vivamus Av.','Gansu','166-811-588'),
+  ('Beck','Jackson','324184','Ap #394-5520 Nonummy Road','Warszawa','776-662-792'),
+  ('Joy','Jerome','278644','Ap #738-8955 Vivamus Rd.','Bremerhaven','084-642-858'),
+  ('Rafael','Lucian','22881','125-5257 Eu Street','Bowling Green','801-113-745'),
+  ('Timothy','Zeph','33G 8J9','P.O. Box 758, 8615 Phasellus Street','Drammen','309-342-628');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Mira','Kirk','66467-475','576-4284 Elementum, Road','Saravena','226-565-103'),
+  ('Neve','Reed','329413','925-7185 Elit, Rd.','Newcastle','427-821-645'),
+  ('Deanna','Solomon','7581 RQ','Ap #496-2654 Eget Av.','Kapiti','088-636-362'),
+  ('Leslie','Gray','779693','714-2084 Dui Rd.','Cork','157-921-161'),
+  ('Fuller','Guy','05248-33977','6258 Egestas St.','Morhet','961-865-688'),
+  ('Tana','Isaiah','4574','7326 Ultricies Avenue','Prince Albert','581-087-773'),
+  ('Kaye','Ferris','5228','Ap #876-1276 In Road','Zaporizhzhia','036-138-622'),
+  ('Gemma','Wing','52778','463-7784 Nec Rd.','Gdynia','668-183-580'),
+  ('Ila','Grant','385150','P.O. Box 584, 2739 Ornare Rd.','Kaluga','073-338-893'),
+  ('Justine','Kareem','5198','Ap #293-5429 In Av.','Salamanca','475-617-962');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Nomlanga','Jelani','50305','P.O. Box 670, 4900 Ultricies Av.','Diego de Almagro','026-353-132'),
+  ('Chaney','Axel','24365','750-1489 Mauris Avenue','Nashville','865-475-143'),
+  ('Scott','Davis','84321','607-2243 Ut St.','Niort','831-366-703'),
+  ('Roary','Alexander','90211','445-440 Dolor. Ave','Saint Petersburg','279-325-024'),
+  ('Adrian','Cullen','772332','Ap #734-1022 Nostra, Av.','Canberra','481-173-872'),
+  ('Baker','Jameson','24466','Ap #114-8869 Duis Av.','Mjölby','610-276-598'),
+  ('Giacomo','Merrill','816706','507-5684 Elementum Road','Lagos','086-579-396'),
+  ('Macy','Gannon','R8 3XU','260-6095 Egestas Av.','Madiun','556-514-321'),
+  ('Felix','Nicholas','44253','140-4450 Vel St.','Kielce','719-877-204'),
+  ('Travis','Wylie','4388','204-1221 Mi Street','Tando Muhammad Khan','651-852-772');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Vladimir','Bruce','4164 ZM','Ap #141-576 Quisque Street','Finspång','666-271-252'),
+  ('Hasad','Merritt','192325','P.O. Box 348, 8649 Lorem Road','Albacete','145-241-173'),
+  ('Ima','Levi','249333','Ap #108-3850 Ipsum. St.','Camporotondo di Fiastrone','615-817-463'),
+  ('Kevyn','Valentine','43444','691-9241 Tristique Ave','Lenna','259-381-100'),
+  ('Kim','Dane','358044','192-7906 Aliquam St.','Tam Đường','526-223-364'),
+  ('Meredith','Baxter','GZ43 6CW','769-1143 Tempor Road','Puerto Carreño','427-705-287'),
+  ('Fletcher','Abdul','21Z 8N2','9340 Ad Road','Wells','680-213-743'),
+  ('Demetria','Allistair','501858','P.O. Box 671, 9401 Nunc Avenue','Sengkang','026-346-085'),
+  ('Dennis','David','4339 JD','893-1956 Nec, Rd.','Huara','455-937-659'),
+  ('Bethany','Ross','YT70 2ZG','165-4572 Sagittis Rd.','Querétaro','502-448-402');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Quamar','Ian','215527','410-1534 Duis Rd.','Calarcá','221-697-547'),
+  ('Ray','Jerome','37702','262-1017 Vitae, Ave','New Plymouth','115-977-346'),
+  ('Cherokee','Kane','36434566','Ap #567-923 Suspendisse Ave','Stratford','547-174-127'),
+  ('Cheryl','George','66-36','Ap #793-6829 Cras Road','Nicoya','465-684-773'),
+  ('Orla','Garrison','65225','Ap #827-2455 Ut, Street','İnegöl','597-072-122'),
+  ('Susan','Brett','10218','435-3330 Quis, Rd.','Saint Paul','179-341-466'),
+  ('Dominic','Abdul','07314','398-4999 Fringilla Avenue','Evere','863-136-264'),
+  ('Graiden','Fletcher','22330','Ap #752-8852 Vehicula Street','Juazeiro do Norte','325-498-612'),
+  ('Brendan','Christian','652785','Ap #950-4742 Nulla Rd.','Kufstein','973-510-114'),
+  ('Jason','Charles','6546','Ap #422-8370 Aliquam Ave','Drumheller','323-230-486');
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
+  ('Kyle','Keaton','484116','128-6138 Lobortis Street','Shenkursk','184-014-463'),
+  ('Philip','Hyatt','7044','988-8397 Commodo Av.','Rueil-Malmaison','930-675-141'),
+  ('Jennifer','Aidan','8214 TZ','Ap #452-3336 Maecenas Rd.','Ipswich','365-482-036'),
+  ('Knox','Brent','36300','P.O. Box 928, 2377 Quis Rd.','Torino','434-801-328'),
+  ('Angela','Basil','222078','857-627 Sed Street','Kitimat','233-701-134'),
+  ('Orlando','Brennan','50478-393','P.O. Box 421, 4529 Semper St.','Preston','614-953-856'),
+  ('Olga','Sylvester','91371','Ap #900-2104 Nec Rd.','Bida','773-951-217'),
+  ('Hop','Kato','69870','Ap #842-6273 Dolor Ave','Tuas','101-784-676'),
+  ('Grace','Marsden','40111','P.O. Box 896, 7385 Velit Road','Chimbote','697-033-574'),
+  ('Buckminster','Joseph','736395','P.O. Box 741, 8896 Egestas Road','Belford Roxo','422-582-717');
+
+
+INSERT INTO person (first_name,last_name,zip_code,street,city,personal_number)
+VALUES
   ('Jacqueline Chan','Mcintyre','48132-08803','568-8305 Augue Av.','Kerikeri','94662300'),
   ('Cruz Watts','Fitzgerald','85535','413-514 Egestas. Rd.','Blue Mountains','42128716'),
   ('Brandon Glenn','Jenkins','626281','Ap #401-7100 Erat St.','Voitsberg','31967448'),
@@ -240,7 +362,6 @@ VALUES
   ('beginner','Coby Jennings','01 512 76',1,'1515617',2,'guitar'),
   ('advancded','Rajah Torres','07 7888 16',1,'1536134',2,'drums');
 
-   
 INSERT INTO instructor (employ_id,number_group_lessons,instrument_type,number_of_individual_lessons)
 VALUES
   ('1774411',1,'guitar',9),
@@ -1450,66 +1571,6 @@ VALUES
   (9,12,29,2),
   (5,10,22,2);
 
-  INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
-VALUES
-  ('rock',20,5,'2023-10-12 10:12:20',10),
-  ('rock',20,5,'2022-11-03 03:03:25',5),
-  ('jazz',20,5,'2021-12-04 13:31:08',8),
-  ('disco',20,5,'2022-11-29 23:55:02',1),
-  ('disco',20,5,'2023-09-21 08:12:04',5),
-  ('disco',20,5,'2023-04-18 19:22:57',8),
-  ('jazz',20,5,'2023-03-04 08:52:36',12),
-  ('jazz',20,5,'2023-04-04 04:41:44',1),
-  ('jazz',20,5,'2023-07-12 11:28:39',5),
-  ('disco',20,5,'2023-02-01 20:03:22',0);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
-VALUES
-  ('jazz',20,5,'2023-07-22 18:27:35',1),
-  ('rock',20,5,'2023-10-10 13:16:38',11),
-  ('rock',20,5,'2023-03-27 20:22:34',7),
-  ('jazz',20,5,'2023-05-21 06:52:40',3),
-  ('rock',20,5,'2023-04-07 13:37:59',6),
-  ('rock',20,5,'2022-12-22 13:00:16',18),
-  ('jazz',20,5,'2022-08-25 22:42:03',20),
-  ('jazz',20,5,'2023-07-09 02:17:38',15),
-  ('jazz',20,5,'2023-09-26 04:51:24',13),
-  ('disco',20,5,'2022-11-14 18:49:15',6);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
-VALUES
-  ('jazz',20,5,'2022-12-13 07:28:16',14),
-  ('disco',20,5,'2022-10-24 18:32:44',17),
-  ('rock',20,5,'2021-12-22 13:36:24',6),
-  ('rock',20,5,'2022-11-14 13:10:23',7),
-  ('rock',20,5,'2023-03-11 22:33:04',9),
-  ('disco',20,5,'2023-11-26 23:10:54',5),
-  ('rock',20,5,'2023-06-05 01:09:21',20),
-  ('rock',20,5,'2023-05-14 16:45:37',5),
-  ('rock',20,5,'2022-08-02 02:43:52',4),
-  ('disco',20,5,'2022-07-14 15:30:16',19);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
-VALUES
-  ('jazz',20,5,'2022-09-22 23:47:52',13),
-  ('disco',20,5,'2022-07-02 11:59:05',3),
-  ('disco',20,5,'2023-10-05 00:55:35',8),
-  ('disco',20,5,'2023-01-13 18:42:16',15),
-  ('disco',20,5,'2022-12-08 18:25:25',3),
-  ('rock',20,5,'2022-08-03 12:32:04',6),
-  ('rock',20,5,'2022-07-03 06:35:54',13),
-  ('disco',20,5,'2022-07-23 11:31:52',16),
-  ('rock',20,5,'2023-11-13 11:33:31',9),
-  ('disco',20,5,'2021-12-25 13:42:55',15);
-INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
-VALUES
-  ('rock',20,5,'2022-03-30 11:23:02',1),
-  ('disco',20,5,'2023-04-10 02:26:19',18),
-  ('jazz',20,5,'2022-05-04 00:01:30',15),
-  ('disco',20,5,'2023-07-13 21:19:53',1),
-  ('disco',20,5,'2022-08-05 10:25:36',11),
-  ('disco',20,5,'2022-09-24 07:06:14',8),
-  ('disco',20,5,'2022-01-09 17:16:11',1),
-  ('disco',20,5,'2022-12-13 05:38:43',6),
-  ('jazz',20,5,'2023-03-28 19:22:28',17),
-  ('disco',20,5,'2022-11-28 17:39:47',8);
 INSERT INTO ensambles (genre,maximun_number_of_students,minimun_number_of_students,start_date,number_of_students)
 VALUES
   ('disco',20,5,'2021-12-11 01:49:12',14),
@@ -1570,92 +1631,6 @@ VALUES
   ('jazz',20,5,'2022-12-08 19:15:14',14),
   ('jazz',20,5,'2022-12-11 16:32:47',18),
   ('rock',20,5,'2022-12-13 02:12:16',0);
-
-
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('guitar',5,20,'2022-07-16 10:07:51'),
-  ('piano',5,20,'2023-10-04 04:10:24'),
-  ('guitar',5,20,'2022-03-11 03:41:57'),
-  ('guitar',5,20,'2022-10-27 03:17:45'),
-  ('guitar',5,20,'2023-08-08 08:23:26'),
-  ('piano',5,20,'2022-09-04 05:45:01'),
-  ('piano',5,20,'2022-01-28 09:34:15'),
-  ('piano',5,20,'2023-09-09 23:09:04'),
-  ('drums',5,20,'2022-10-22 16:35:07'),
-  ('piano',5,20,'2023-07-01 19:23:05');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('piano',5,20,'2023-01-11 16:16:06'),
-  ('drums',5,20,'2023-07-22 00:31:39'),
-  ('guitar',5,20,'2022-02-08 04:42:39'),
-  ('piano',5,20,'2022-01-23 01:31:36'),
-  ('guitar',5,20,'2021-12-31 01:44:14'),
-  ('guitar',5,20,'2023-10-24 05:13:55'),
-  ('drums',5,20,'2022-06-06 04:24:09'),
-  ('piano',5,20,'2023-10-15 02:29:50'),
-  ('piano',5,20,'2022-12-21 10:47:32'),
-  ('guitar',5,20,'2023-08-03 12:09:48');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('drums',5,20,'2023-06-30 12:07:04'),
-  ('guitar',5,20,'2022-07-23 12:43:32'),
-  ('piano',5,20,'2023-11-23 02:24:47'),
-  ('drums',5,20,'2022-11-19 00:20:31'),
-  ('guitar',5,20,'2021-12-22 19:28:21'),
-  ('drums',5,20,'2023-08-12 07:47:37'),
-  ('drums',5,20,'2022-09-05 19:45:03'),
-  ('piano',5,20,'2022-02-15 13:27:40'),
-  ('drums',5,20,'2022-01-03 23:01:08'),
-  ('drums',5,20,'2023-02-16 04:59:28');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('guitar',5,20,'2023-01-15 03:20:31'),
-  ('piano',5,20,'2023-05-09 03:25:51'),
-  ('piano',5,20,'2022-04-26 23:44:43'),
-  ('piano',5,20,'2022-06-22 22:39:32'),
-  ('guitar',5,20,'2023-01-08 05:15:53'),
-  ('guitar',5,20,'2021-12-11 06:25:16'),
-  ('drums',5,20,'2021-12-06 08:29:57'),
-  ('drums',5,20,'2023-12-01 21:46:38'),
-  ('piano',5,20,'2022-09-08 06:24:42'),
-  ('drums',5,20,'2022-07-06 01:20:25');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('piano',5,20,'2023-04-30 16:38:28'),
-  ('piano',5,20,'2023-01-18 09:01:57'),
-  ('guitar',5,20,'2023-05-23 10:58:17'),
-  ('guitar',5,20,'2022-01-19 04:50:08'),
-  ('guitar',5,20,'2022-04-11 09:25:05'),
-  ('drums',5,20,'2023-06-02 01:26:18'),
-  ('piano',5,20,'2022-04-01 04:40:20'),
-  ('piano',5,20,'2023-09-03 11:43:59'),
-  ('piano',5,20,'2022-08-30 12:54:27'),
-  ('piano',5,20,'2022-06-10 17:28:52');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('guitar',5,20,'2022-11-01 07:11:25'),
-  ('guitar',5,20,'2023-04-10 21:54:52'),
-  ('drums',5,20,'2022-08-12 06:17:30'),
-  ('guitar',5,20,'2022-06-26 12:37:47'),
-  ('guitar',5,20,'2023-05-04 16:09:25'),
-  ('drums',5,20,'2023-03-06 05:06:47'),
-  ('piano',5,20,'2023-09-20 23:18:39'),
-  ('piano',5,20,'2022-06-20 10:34:34'),
-  ('guitar',5,20,'2023-01-03 21:19:05'),
-  ('guitar',5,20,'2023-10-03 11:58:58');
-INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
-VALUES
-  ('drums',5,20,'2022-09-30 20:29:19'),
-  ('piano',5,20,'2023-07-21 13:22:50'),
-  ('guitar',5,20,'2023-06-29 16:48:54'),
-  ('piano',5,20,'2023-10-09 17:21:56'),
-  ('piano',5,20,'2022-01-07 17:21:06'),
-  ('guitar',5,20,'2023-06-06 06:11:15'),
-  ('drums',5,20,'2023-05-04 17:44:30'),
-  ('guitar',5,20,'2023-01-20 08:51:33'),
-  ('drums',5,20,'2023-03-31 14:04:00'),
-  ('guitar',5,20,'2023-07-31 20:44:34');
 INSERT INTO group_lessons (instrument_type,minimun_number_of_students,maximun_number_of_students,start_date)
 VALUES
   ('guitar',5,20,'2022-10-18 19:13:50'),
@@ -1692,103 +1667,6 @@ VALUES
   ('piano',5,20,'2022-09-03 15:16:35'),
   ('drums',5,20,'2021-12-20 00:08:06'),
   ('guitar',5,20,'2023-03-28 05:04:55');
-
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('piano','2023-01-05 12:46:48'),
-  ('drums','2021-12-16 08:51:30'),
-  ('piano','2022-11-12 02:07:31'),
-  ('guitar','2023-09-17 12:05:17'),
-  ('piano','2022-02-24 23:17:13'),
-  ('drums','2023-06-05 18:36:38'),
-  ('drums','2022-04-02 20:24:34'),
-  ('guitar','2023-01-22 15:00:51'),
-  ('guitar','2023-11-29 20:12:15'),
-  ('piano','2023-05-10 13:50:24');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('piano','2022-12-25 18:10:36'),
-  ('piano','2023-06-13 08:27:27'),
-  ('guitar','2023-07-30 21:59:08'),
-  ('piano','2022-03-29 21:37:01'),
-  ('piano','2022-03-15 15:15:44'),
-  ('piano','2023-10-01 21:07:52'),
-  ('drums','2023-09-15 04:42:11'),
-  ('drums','2022-06-30 15:22:46'),
-  ('guitar','2022-09-21 06:43:23'),
-  ('guitar','2022-10-29 05:58:41');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('drums','2022-07-22 21:42:02'),
-  ('drums','2023-04-17 17:54:41'),
-  ('drums','2023-11-07 22:04:25'),
-  ('drums','2022-05-03 11:47:38'),
-  ('piano','2022-10-18 06:13:58'),
-  ('guitar','2022-02-19 14:03:20'),
-  ('piano','2023-02-27 07:40:13'),
-  ('piano','2023-03-04 20:07:57'),
-  ('guitar','2023-06-16 09:37:38'),
-  ('drums','2023-01-27 23:50:56');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('guitar','2023-07-01 11:24:48'),
-  ('piano','2023-05-19 01:19:38'),
-  ('piano','2023-02-16 11:45:47'),
-  ('guitar','2023-05-17 02:47:00'),
-  ('guitar','2021-12-06 08:41:48'),
-  ('piano','2022-10-18 16:28:39'),
-  ('guitar','2022-08-26 12:27:42'),
-  ('piano','2023-04-06 12:57:09'),
-  ('piano','2022-06-02 02:41:32'),
-  ('guitar','2022-11-11 12:18:34');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('guitar','2023-07-31 06:04:20'),
-  ('piano','2022-12-09 02:13:52'),
-  ('drums','2022-09-27 04:20:01'),
-  ('drums','2022-10-24 04:03:04'),
-  ('drums','2022-06-07 05:30:52'),
-  ('piano','2022-06-27 10:43:18'),
-  ('guitar','2022-01-06 22:45:12'),
-  ('drums','2023-07-27 21:47:34'),
-  ('piano','2023-04-03 18:38:20'),
-  ('drums','2023-01-11 15:22:41');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('drums','2023-11-25 19:40:37'),
-  ('drums','2023-06-30 10:38:44'),
-  ('guitar','2021-12-22 22:37:02'),
-  ('guitar','2022-08-19 17:41:00'),
-  ('drums','2023-02-23 05:59:26'),
-  ('guitar','2022-04-07 18:33:23'),
-  ('guitar','2023-10-29 13:39:13'),
-  ('drums','2021-12-10 19:20:06'),
-  ('guitar','2023-10-15 07:20:47'),
-  ('piano','2022-10-18 22:10:05');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('guitar','2022-05-10 23:24:19'),
-  ('piano','2022-04-02 03:29:28'),
-  ('drums','2023-02-19 11:40:53'),
-  ('guitar','2022-10-11 01:25:06'),
-  ('guitar','2022-04-25 22:41:40'),
-  ('piano','2022-12-14 11:11:52'),
-  ('drums','2022-03-02 05:41:18'),
-  ('drums','2023-01-28 06:15:18'),
-  ('drums','2023-05-25 14:21:49'),
-  ('guitar','2023-05-25 19:22:22');
-INSERT INTO individual_lessons (intrument_type,start_date)
-VALUES
-  ('drums','2022-01-02 12:52:35'),
-  ('piano','2023-05-02 11:32:20'),
-  ('guitar','2022-06-18 14:36:13'),
-  ('piano','2022-07-28 07:52:50'),
-  ('piano','2023-11-04 17:37:57'),
-  ('drums','2023-04-15 07:13:57'),
-  ('guitar','2022-09-05 07:16:30'),
-  ('guitar','2023-06-05 04:17:28'),
-  ('piano','2022-09-19 02:44:13'),
-  ('guitar','2022-05-04 00:56:22');
 INSERT INTO individual_lessons (intrument_type,start_date)
 VALUES
   ('drums','2023-07-18 19:26:37'),

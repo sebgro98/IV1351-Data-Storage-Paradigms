@@ -147,7 +147,7 @@ CREATE TABLE ensambles (
  genre VARCHAR(100) NOT NULL,
  maximun_number_of_students INT NOT NULL,
  minimun_number_of_students INT NOT NULL,
- number_of_students
+ number_of_students,
  start_date TIMESTAMP(6)
 );
 

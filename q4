@@ -1,10 +1,8 @@
 SELECT genre, maximun_number_of_students, minimun_number_of_students,  number_of_students, start_date,
-
 CASE WHEN number_of_students >= 15 THEN 'Lesson is fully booked'
 WHEN number_of_students >= 13 THEN 'Lesson has 1-2 seats left'
 ELSE 'Lesson has more seats left'
 END AS seats_left
-
 FROM ensambles
- Where start_date BETWEEN '2022-12-04 00:00:00' AND '2022-12-11 00:00:00' 
-ORDER BY genre
+Where start_date BETWEEN '2022-12-04 00:00:00' AND '2022-12-11 00:00:00' 
+ORDER BY start_date ASC, genre 

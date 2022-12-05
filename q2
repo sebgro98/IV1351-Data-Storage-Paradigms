@@ -1,0 +1,4 @@
+SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+HAVING COUNT(sibling_related_to_student) > 1

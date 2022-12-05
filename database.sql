@@ -62,32 +62,8 @@ CREATE TABLE student (
  student_number VARCHAR(12) UNIQUE NOT NULL,
  number_of_lessons_taken INT,
  person_id INT GENERATED ALWAYS AS IDENTITY UNIQUE NOT NULL,
- instrument_type VARCHAR(100)SELECT 'This is total lessons per month in year 2022';
-select extract(MONTH from lessons.start_date) AS MONTH,
- extract(year from start_date) AS year,
- count(*) from lessons where extract(year from start_date) 
- = 2022 group by extract(MONTH from start_date), extract(year from start_date);
- 
- 
- SELECT 'This is group lessons per month in year 2022';
-select extract(MONTH from group_lessons.start_date) AS MONTH,
- extract(year from start_date) AS year,
- count(*) from group_lessons where extract(year from start_date) 
- = 2022 group by extract(MONTH from start_date), extract(year from start_date);
- 
- 
- SELECT 'This is ensambles lessons per month in year 2022';
-select extract(MONTH from ensambles.start_date) AS MONTH,
- extract(year from start_date) AS year,
- count(*) from ensambles where extract(year from start_date) 
- = 2022 group by extract(MONTH from start_date), extract(year from start_date);
- 
- SELECT 'This is individual lessons per month in year 2022';
-select extract(MONTH from individual_lessons.start_date) AS MONTH,
- extract(year from start_date) AS year,
- count(*) from individual_lessons where extract(year from start_date) 
- = 2022 group by extract(MONTH from start_date), extract(year from start_date);
-);
+ instrument_type VARCHAR(100)
+ );
 
 ALTER TABLE student ADD CONSTRAINT PK_student PRIMARY KEY (id);
 

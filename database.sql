@@ -136,7 +136,7 @@ CREATE TABLE siblings (
  student_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  student_also_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  sibling_related_to_student VARCHAR(12),
- sibling_id VARCHAR(12) UNIQUE
+ sibling_id VARCHAR(12)
 );
 
 ALTER TABLE siblings ADD CONSTRAINT PK_siblings PRIMARY KEY (student_id,student_also_id);

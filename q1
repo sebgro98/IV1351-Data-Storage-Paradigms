@@ -7,3 +7,30 @@ count(case when lesson_type = 'group_lesson' then 1 else null end) as group_less
 FROM lessons
  Where EXTRACT(YEAR FROM start_date)=2022
 Group by EXTRACT(YEAR FROM start_date),  EXTRACT(MONTH FROM start_date)
+
+
+SELECT 'This is total lessons per month in year 2022';
+select extract(MONTH from lessons.start_date) AS MONTH,
+ extract(year from start_date) AS year,
+ count(*) from lessons where extract(year from start_date) 
+ = 2022 group by extract(MONTH from start_date), extract(year from start_date);
+ 
+ 
+ SELECT 'This is group lessons per month in year 2022';
+select extract(MONTH from group_lessons.start_date) AS MONTH,
+ extract(year from start_date) AS year,
+ count(*) from group_lessons where extract(year from start_date) 
+ = 2022 group by extract(MONTH from start_date), extract(year from start_date);
+ 
+ 
+ SELECT 'This is ensambles lessons per month in year 2022';
+select extract(MONTH from ensambles.start_date) AS MONTH,
+ extract(year from start_date) AS year,
+ count(*) from ensambles where extract(year from start_date) 
+ = 2022 group by extract(MONTH from start_date), extract(year from start_date);
+ 
+ SELECT 'This is individual lessons per month in year 2022';
+select extract(MONTH from individual_lessons.start_date) AS MONTH,
+ extract(year from start_date) AS year,
+ count(*) from individual_lessons where extract(year from start_date) 
+ = 2022 group by extract(MONTH from start_date), extract(year from start_date);

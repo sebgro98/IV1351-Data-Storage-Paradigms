@@ -1,4 +1,56 @@
-SELECT sibling_related_to_student, 
+SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
 COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
 GROUP BY sibling_related_to_student
-HAVING COUNT(sibling_related_to_student) > 1
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 0
+  ) AS no_siblings,
+ (SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 1
+  ) AS one_siblings),
+(SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 2
+  ) AS two_siblings),
+(SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 3
+  ) AS three_siblings
+),
+  (SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 4
+  ) AS four_siblings
+   ),
+   (SELECT (
+SELECT COUNT (*) FROM (SELECT sibling_related_to_student, 
+COUNT(sibling_related_to_student) AS number_of_siblings FROM siblings
+GROUP BY sibling_related_to_student
+)
+AS 
+ASS
+WHERE ASS.number_of_siblings = 5
+  ) AS five_siblings)

@@ -1,5 +1,3 @@
-CREATE MATERIALIZED VIEW ensambles_next_week
-AS
 SELECT genre, maximun_number_of_students, minimun_number_of_students,  number_of_students, start_date,
 CASE WHEN number_of_students >= 15 THEN 'Lesson is fully booked'
 WHEN number_of_students >= 13 THEN 'Lesson has 1-2 seats left'
